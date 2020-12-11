@@ -4,4 +4,4 @@ I'm a math student and software engineering entusiast that loves to explore nume
 
 - 🔭 I’m currently working on [philsupertramp/game-math](github.com/philsupertramp/game-math) a math library for game developers
 - 🌱 I’m currently learning techniques of Game Development, Neural Networks and methods to solve ordinary differential equations
-- ✍️ You can contact me through [Twitter](twitter.com/PhilSupertramp) or [Mail](mailto:zettl.philipp@gmail.com)
+- ✍️ You can contact me through [Twitter](https://twitter.com/PhilSupertramp) or [Mail](mailto:zettl.philipp@gmail.com)
