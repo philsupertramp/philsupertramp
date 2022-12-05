@@ -8,7 +8,7 @@ I have a B. Sc. in Mathematics and am a big software engineering entusiast that 
 - 🌱 I’m currently learning techniques of Game Development 👾, Machine Learning 🤖, Computer Vision 🌎, Reinforced Deep-Q-Learning 🐤 and solving differential equations 📈.
 - ✍️ You can contact me through [Mail](mailto:philipp@godesteem.de)
 
-[![philsupertramp's GitHub stats](https://github-readme-stats.vercel.app/api?username=philsupertramp&show_icons=true&bg_color=00000000)]
+![philsupertramp's GitHub stats](https://github-readme-stats.vercel.app/api?username=philsupertramp&show_icons=true&bg_color=00000000)
 
 [![philsupertramp's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=philsupertramp&theme=blue-green&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
