@@ -13,18 +13,15 @@ I have a B. Sc. in Mathematics and am a big software engineering entusiast that 
 - ✍️ You can contact me via [Mail](mailto:philipp@godesteem.de) or other social channels listed in my profile
 
 ----
+Check out my contributions on other platforms, like HuggingFace 🤗
+
+https://philipp-zettl-my-heatmap.static.hf.space
+
+----
 
 - 👨‍🏫 Early 2022 I wrote [my Thesis](https://github.com/philsupertramp/inet) with the topic: **"Machine Learning Methods for Localiazation and Classification of Insects in Images"** and plan to build a more advanced guideline for object detection / image classification tasks.
 - 🧑‍🏫 In summer 2023 I taught an introductory class to Machine Learning at Berliner Hochschule für Technik (BHT)
 
-<div>
-<iframe
-	src="https://philipp-zettl-my-heatmap.static.hf.space/index.html"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
-</div>
 
 <a href="https://github.com/philsupertramp">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=philsupertramp&show_icons=true&bg_color=00000000" />
