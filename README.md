@@ -4,7 +4,7 @@ I have a B. Sc. in Mathematics and am a big software engineering entusiast that 
 
 My most recent projects are
 - [philipp-zettl/factory](https://github.com/philipp-zettl/factory): a generative AI service that bundles wide-spread Text-To-Image, Text-To-Text, Text-To-Speech and Speech-Recognition tasks. It's constantly getting updates and it's for sure worth a look!
-- [philsupertramp/diffusion](https://GitHub.com/philsupertramp/diffusion) W.I.P. c++ implementation of stable diffusion to enable blazing fast inference on non-cuda devices. We start off with a CUDA and bare c++ implementation, to support NVIDIA GPU and any CPU, then implement ROCm and OpenCL alternatives. For now we don't plan to support mlx.
+- [philsupertramp/diffuse](https://GitHub.com/philsupertramp/diffuse) W.I.P. c++ implementation of stable diffusion to enable blazing fast inference on non-cuda devices. We start off with a CUDA and bare c++ implementation, to support NVIDIA GPU and any CPU, then implement ROCm and OpenCL alternatives. For now we don't plan to support mlx (metal/Apple Inc.).
 
 Until 2021 my main focus in software development was to build useful tools for WebDev and everything involved in it.  
 Ranging from an educational course in
