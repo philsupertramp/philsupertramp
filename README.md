@@ -2,14 +2,33 @@
 My name is Philipp.
 I have a B. Sc. in Mathematics and am a big software engineering entusiast that loves to explore numerical and statistical methods to solve problems.
 
-- 🧙‍♂️ Over the past years I've been cooking several things
-  - 🤖 [philsupertramp/chain-smoker](https://github.com/philsupertramp/chain-smoker) a testing tool to record and execute (mainly REST-API) smoke tests.
-  - 🔭 [philsupertramp/game-math](https://github.com/philsupertramp/game-math) a math library for game developers, which includes a load of mathematical helpers to do all sorts of things, including several Machine Learning tools
-  - 🐋 [philsupertramp/docker](https://github.com/philsupertramp/docker) a "3 day" course on how to use docker
-  - 🐋 [philsupertramp/docr](https://github.com/philsupertramp/docr) a docker-compose utility script
-  - 🗎 [philsupertramp/tex-starter](https://github.com/philsupertramp/tex-starter) a LaTeX starter project, to jump-start a large tex document
-  - 🐮 [Django](https://www.djangoproject.com/) tools: [philsupertramp/django-data-migration](https://github.com/philsupertramp/django-data-migration) a decoupled migration system exclusively for data transformations and [philsupertramp/dj-migration-test](https://github.com/philsupertramp/dj-migration-test) a django library assisting to write unit tests for data migrations.
-- 🌱 I’m currently learning techniques of Game Development 👾, Machine Learning 🤖, Computer Vision 🌎, Reinforced Deep-Q-Learning 🐤 and solving differential equations 📈.
+My most recent projects are
+- [philipp-zettl/factory](https://github.com/philipp-zettl/factory): a generative AI service that bundles wide-spread Text-To-Image, Text-To-Text, Text-To-Speech and Speech-Recognition tasks. It's constantly getting updates and it's for sure worth a look!
+- [philsupertramp/diffusion](https://GitHub.com/philsupertramp/diffusion) W.I.P. c++ implementation of stable diffusion to enable blazing fast inference on non-cuda devices. We start off with a CUDA and bare c++ implementation, to support NVIDIA GPU and any CPU, then implement ROCm and OpenCL alternatives. For now we don't plan to support mlx.
+
+Until 2021 my main focus in software development was to build useful tools for WebDev and everything involved in it.  
+Ranging from an educational course in
+- 🐋 [philsupertramp/docker](https://github.com/philsupertramp/docker) a "3 day" course on how to use docker
+
+To usability tools like a helper/wrapper script around docker-compose
+- 🐋 [philsupertramp/docr](https://github.com/philsupertramp/docr) a docker-compose utility script
+
+An API testing framework
+- 🤖 [philsupertramp/chain-smoker](https://github.com/philsupertramp/chain-smoker) a testing tool to record and execute (mainly REST-API) smoke tests.
+And many many extensions for Django (a python web framework)
+- 🐮 [Django](https://www.djangoproject.com/) tools: [philsupertramp/django-data-migration](https://github.com/philsupertramp/django-data-migration) a decoupled migration system exclusively for data transformations and [philsupertramp/dj-migration-test](https://github.com/philsupertramp/dj-migration-test) a django library assisting to write unit tests for data migrations.
+
+Apart from this, I've also published my starter repository for TeX Projects
+- 🗎 [philsupertramp/tex-starter](https://github.com/philsupertramp/tex-starter) a LaTeX starter project, to jump-start a large tex document
+
+and I am the proud author of
+
+- 🔭 [philsupertramp/game-math](https://github.com/philsupertramp/game-math) a math library for game developers, which includes a load of mathematical helpers to do all sorts of things, including several Machine Learning algorithms too and the beginning of a symbolic math extension.
+  
+  
+There is much more to discover in my repositories, give em a look you won't regret it 😉
+  
+  
 - ✍️ You can contact me via [Mail](mailto:philipp@godesteem.de) or other social channels listed in my profile
 
 ----
