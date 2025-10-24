@@ -3,6 +3,7 @@ My name is Philipp.
 I have a B. Sc. in Mathematics and am a big software engineering entusiast that loves to explore numerical and statistical methods to solve problems.
 
 My most recent projects are
+- [learn-dis/learn-dis](https://github.com/learn-dis/learn-dis): a distributed training service for ML models. Originally a research project to test the feasibility of FedAvg on private training data provided by external remote clients.
 - [philsupertramp/factory](https://github.com/philsupertramp/factory): a generative AI service that bundles wide-spread Text-To-Image, Text-To-Text, Text-To-Speech and Speech-Recognition tasks. It's constantly getting updates and it's for sure worth a look!
 
 
