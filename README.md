@@ -43,12 +43,15 @@ https://philipp-zettl-my-heatmap.static.hf.space
 - 👨‍🏫 Early 2022 I wrote [my Thesis](https://github.com/philsupertramp/inet) with the topic: **"Machine Learning Methods for Localiazation and Classification of Insects in Images"** and plan to build a more advanced guideline for object detection / image classification tasks.
 - 🧑‍🏫 In summer 2023 I taught an introductory class to Machine Learning at Berliner Hochschule für Technik (BHT)
 
-[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fphilsupertramp&label=%23%20Visitors&countColor=%23ff8a65&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fphilsupertramp)
+----
 
-<a href="https://github.com/philsupertramp">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=philsupertramp&show_icons=true&bg_color=00000000" />
-</a>
-<a href="https://github.com/philsupertramp">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=philsupertramp&theme=blue-green&layout=compact&hide=html,css,javascript&langs_count=8&card_width=320" />
-</a>
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Philsupertramp&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Philsupertramp&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Philsupertramp&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Philsupertramp&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Philsupertramp&limit=5&theme=dark&combine_all_yearly_contributions=true)
