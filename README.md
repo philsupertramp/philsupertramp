@@ -1,4 +1,6 @@
 ### Hi there 👋
+[Download my full CV (PDF)](https://github.com/philsupertramp/philsupertramp/releases/latest/download/cv.pdf)
+
 My name is Philipp.
 I have a B. Sc. in Mathematics and am a big software engineering entusiast that loves to explore numerical and statistical methods to solve problems.
 
