@@ -57,8 +57,7 @@ prototype to market-ready state within 12 months."
       - "Owned all Python engineering and led 2-person team. Architected distributed AI 
 automation platform from scratch, replacing 3 duplicate messaging codebases with 
 Django-based orchestration layer and stateless Python microservices for message 
-parsing, routing, and AI task execution. Platform processed 2M+ messages 
-latency across WhatsApp, Telegram, and Meta Messenger, handling 650+ concurrent 
+parsing, routing, and AI task execution. Platform processed 2M+ messages across APIs, WhatsApp, Telegram, and Meta Messenger, handling 650+ concurrent 
 AI generation requests. Platform success led to easybits GmbH spin-off in 2025."
       - "Evolved intent classification through systematic iteration: keyword-based → 
 fine-tuned xlm-RoBERTa → fine-tuned Qwen2-1.5B → currently OpenAI o1-mini for big scale production data collection. 
