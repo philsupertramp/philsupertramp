@@ -6,17 +6,17 @@ config:
   link_color: "lightblue"
 
 summary: |
-  Result oriented Backend Engineer with 4+ experience designing, developing and
-  deploying scalable web backends using Python, FastAPI/Django and (non) relational or vector database systems.
-  Skilled in SDLC from requirement gathering to automated testing and experise in technical leadership, mentoring junior developers,
-  and driving engineering best practices.
-  Successfully architected a message processing system that parses and routes messages in parallel within $\approx 1.1$ seconds.
-  Passionate about writing open, clean, maintainable code and optimizing system performance.
+  Backend Engineer with 8+ years of experience building scalable Python systems and 
+  leading technical teams. Specialized in Django-based microservices, ML integration, 
+  and platform architecture. Architected AI automation platform that processed 2M+ 
+  messages and spun off into easybits GmbH. Strong track record progressing from 
+  working student to founding engineer, mentoring teams of 3-5 developers, and 
+  driving engineering practices from prototype to production.
 
 
 skills:
   - category: "Languages"
-    entries: "Python, Bash, C/\\CC, MATLAB, Go, JavaScript"
+    entries: "Python, Bash, C/\\CC, JavaScript"
   - category: "Frameworks \\& ML"
     entries: "FastAPI, Django, Flask, PyTorch, Transformers, llama.cpp"
   - category: "Cloud \\& DevOps"
@@ -31,10 +31,22 @@ experience:
     company: "easybits GmbH"
     techstack: Python, Django, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, sentence-transformers, llama.cpp
     description:
-      - Moved Python side of project from prototype state to production-grade services.
-      - Designed and implemented new automation solutions using self hosted models as well as API providers, e.g. semantic-search, text extraction for documents, text classification and image generation solutions.
-      - Introduced platform security mechanics, e.g. RFC like workflow for core changes, semantic versioning, release processes.
-      - Built up test case coverage for all ($\approx$ 10) Python projects to $\gte98\%$ and maintained the platform infrastructure on AWS (EKS cluster).
+      - "Founding engineer for MoBerries automation platform spin-off. Solo Python engineer 
+responsible for backend services, ML integrations, and AWS infrastructure (EKS). 
+Evolved prototype codebase into production system through systematic refactoring, 
+establishing $\\approx 98\\%$ test coverage, CI/CD pipelines, and engineering best practices 
+(RFC workflow, semantic versioning, release processes). Reduced deployment cycles 
+from hours to minutes."
+
+      - "Built modular automation framework with reusable building blocks for AI-powered 
+workflows. Implemented semantic search (Qdrant), document text extraction, multi-class 
+text classification, and image generation using self-hosted models (llama.cpp) with 
+cloud provider fallbacks. Extended platform capabilities through new automation 
+modules as product requirements evolved."
+
+      - "Managed AWS EKS infrastructure with auto-scaling, monitoring, and self-hosted LLM 
+deployments. Collaborated with CTO and offshore developer to bring platform from 
+prototype to market-ready state within 12 months."
 
   - dates: "May 2022--Dec 2024"
     title: "Solutions Architect \\& Lead Python Engineer"
@@ -42,10 +54,18 @@ experience:
     company: "MoBerries GmbH"
     techstack: Python, Django, JavaScript, React, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, AWS, PyTorch, Tensorflow (2.0), Transformers, sentence-transformers
     description:
-      - Supervised Python team, architected solutions for platform and developed matching related features.
-      - Built in-house matching for the arabic language.
-      - Ran big scale evaluation of the matching algorithm for foreign governments during due diligence processes.
-      - Starting development of an asynchronous messaging platform for AI automation, which spun-off the easybits GmbH in 2025.
+      - "Owned all Python engineering and led 2-person team. Architected distributed AI 
+automation platform from scratch, replacing 3 duplicate messaging codebases with 
+Django-based orchestration layer and stateless Python microservices for message 
+parsing, routing, and AI task execution. Platform processed 2M+ messages across APIs, WhatsApp, Telegram, and Meta Messenger, handling 650+ concurrent 
+AI generation requests. Platform success led to easybits GmbH spin-off in 2025."
+      - "Evolved intent classification through systematic iteration: keyword-based → 
+fine-tuned xlm-RoBERTa → fine-tuned Qwen2-1.5B → currently OpenAI o1-mini for big scale production data collection. 
+Final in-house model achieved 99\\% accuracy (0.99 F1 score) on zero-shot 5-class 
+classification. Integrated self-hosted LLMs with cloud provider fallbacks for 
+production automation workflows."
+      - "Mentored DevOps engineer and BI analyst, reviewing their work and supporting 
+infrastructure automation and data pipeline development."
 
   - dates: "Oct 2018--Apr 2022"
     title: Working Student Python Backend Engineering (20h/week)
@@ -53,10 +73,25 @@ experience:
     company: "MoBerries GmbH"
     techstack: Python, Django, JavaScript, React, PostgreSQL, MongoDB, RabbitMQ, Docker, Kubernetes, Terraform, AWS
     description:
-      - Developed features for the internal backend. Improved test code coverage and maintained the project in a team of 3 developers.
-      - Starting 2020 due to down sizing I took over the lead of all Python projects, including some tasks for the matching algorithm.
-      - In 2021 supervised small team of one full time and one part time developer.
-      - At the end of 2021 I took over the Machine Learning part of the company and developed several features for the candidate-job matching algorithm. This team grew until 2022 to three full time developers.
+      - "Rapid progression from junior developer to technical lead over 3.5 years during 
+company downsizing. Started in 3-person team maintaining internal backend; by 2020 
+became sole Python backend engineer supporting 10+ developers across teams with 
+features, fixes, and infrastructure improvements."
+
+      - "Built and open-sourced \\href{https://gist.github.com/philsupertramp/4bb01105a07b055363ea1172768453cd}{Django migration tooling} (2019) to address codebase 
+complexity: squashed 500-node migration graph to ~150 nodes through automated 
+consolidation, then created \\href{https://github.com/philsupertramp/django-data-migration}{data migration framework} enabling data evolution 
+without breaking migration dependencies. Tools became critical for maintaining 
+production stability during team transitions."
+
+      - "Established comprehensive test coverage in absence of QA team, implemented CI/CD 
+improvements, and maintained production systems through multiple scaling phases. 
+Led team of 2 developers (1 FT, 1 PT) starting 2021."
+
+      - "Transitioned to ML/matching focus (late 2021), growing team to 3 full-time 
+developers by 2022. Built Arabic language matching prototype for Middle East 
+expansion and Google Sheets integration enabling sales team to score candidate-job 
+pairs in real-time by auto-parsing spreadsheet data to internal matching API."
 
   - dates: "Oct 2017--Sep 2018"
     title: Working Student Software Development (20h/week)
@@ -81,7 +116,7 @@ projects:
   - name: "Chain Smoker"
     description: "Testing tool with a Go-based proxy to record and replay HTTP requests."
     urls:
-      - name: "philsupertramp/chain-smoke"
+      - name: "philsupertramp/chain-smoker"
         target: "https://github.com/philsupertramp/chain-smoker"
 
 education:

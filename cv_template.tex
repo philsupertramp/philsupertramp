@@ -52,7 +52,7 @@
 \section{Skills}
 \BLOCK{ for row in skills | batch(2) }
   \cvdoubleitem{\textbf{\VAR{row[0].category}}}{\VAR{row[0].entries}}
-               {\textbf\VAR{row[1].category if row[1] else ''}}{\VAR{row[1].entries if row[1] else ''}}
+               {\textbf{\VAR{row[1].category if row[1] else ''}}}{\VAR{row[1].entries if row[1] else ''}}
 \BLOCK{ endfor }
 
 \section{Experience}

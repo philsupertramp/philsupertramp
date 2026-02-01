@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '**.tex'
+      - '**.yaml'
       - '.github/**'
 
 jobs:
