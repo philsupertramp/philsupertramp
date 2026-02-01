@@ -67,9 +67,9 @@ company downsizing. Started in 3-person team maintaining internal backend; by 20
 became sole Python backend engineer supporting 10+ developers across teams with 
 features, fixes, and infrastructure improvements."
 
-      - "Built and open-sourced \href{https://gist.github.com/philsupertramp/4bb01105a07b055363ea1172768453cd}{Django migration tooling} (2019) to address codebase 
+      - "Built and open-sourced \\href{https://gist.github.com/philsupertramp/4bb01105a07b055363ea1172768453cd}{Django migration tooling} (2019) to address codebase 
 complexity: squashed 500-node migration graph to ~150 nodes through automated 
-consolidation, then created \href{https://github.com/philsupertramp/django-data-migration}{data migration framework} enabling data evolution 
+consolidation, then created \\href{https://github.com/philsupertramp/django-data-migration}{data migration framework} enabling data evolution 
 without breaking migration dependencies. Tools became critical for maintaining 
 production stability during team transitions."
 
