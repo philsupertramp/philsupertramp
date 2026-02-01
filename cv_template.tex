@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{\VAR{config.style}}
+\moderncvcolor{\VAR{config.color | default('blue')}}
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+% Source - https://tex.stackexchange.com/a
+% Posted by Pieter, modified by community. See post 'Timeline' for change history
+% Retrieved 2026-01-23, License - CC BY-SA 3.0
+
+% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\usepackage{xcolor}
+\definecolor{lightblue}{RGB}{0,70,140}
+\usepackage{xparse}
+
+\usepackage[
+  colorlinks=true,
+  linkcolor=\VAR{config.link_color | default('linkblue')},
+  urlcolor=\VAR{config.link_color | default('linkblue')}
+]{hyperref}
+
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
+\newcommand{\techstack}[1]{%
+  \par\vspace{1pt}
+  {\footnotesize\color{gray}\textbf{Tech Stack:} \textit{#1}}%
+}
+
+% Personal data
+\name{\VAR{config.name_first}}{\VAR{config.name_last}}
+\title{Backend Engineer \& Solutions Architect} 
+\address{Berlin, Germany}{}{} 
+\email{philipp@godesteem.de}
+\social[github]{philsupertramp} 
+\extrainfo{HuggingFace: \httpslink{hf.co/philipp-zettl}}
+
+\begin{document}
+\makecvtitle
+
+\section{Professional Summary}
+% You can also inject a simple string here
+\cvitem{}{\VAR{summary | default('Passionate researcher with a focus on automation.')}}
+
+\section{Skills}
+\BLOCK{ for row in skills | batch(2) }
+  \cvdoubleitem{\textbf{\VAR{row[0].category}}}{\VAR{row[0].entries}}
+               {\textbf\VAR{row[1].category if row[1] else ''}}{\VAR{row[1].entries if row[1] else ''}}
+\BLOCK{ endfor }
+
+\section{Experience}
+\BLOCK{ for job in experience }
+\cventry{\VAR{job.dates}}{\VAR{job.title}}{\VAR{job.company}}{\VAR{job.location}}{}{%
+\techstack{\VAR{job.techstack}}
+\begin{itemize}
+    \BLOCK{ for item in job.description }
+    \item \VAR{item}
+    \BLOCK{ endfor }
+\end{itemize}
+}
+\BLOCK{ endfor }
+
+\section{Selected Projects}
+\BLOCK{ for proj in projects }
+\cvitem{\VAR{proj.name}}{\VAR{proj.description}\newline\BLOCK{for url in proj.urls}\href{\VAR{url.target}}{\footnotesize \VAR{url.name}}\BLOCK{endfor}}
+\BLOCK{ endfor }
+
+\section{Education}
+\BLOCK{ for edu in education }
+\cventry{\VAR{edu.dates}}{\VAR{edu.degree}}{\VAR{edu.institution}}{}{}{\VAR{edu.description}}
+\BLOCK{ endfor }
+
+\BLOCK{ for elem in other }
+\section{\VAR{elem.title}}
+\VAR{elem.content}
+\BLOCK{ endfor }
+
+\end{document}

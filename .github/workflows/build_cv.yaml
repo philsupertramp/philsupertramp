@@ -10,8 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+
       - name: Run the LaTeX build
-        run: docker run --rm -v ${PWD}:/usr/app/src ghcr.io/philsupertramp/latex-build:latest src cv
+        run: |
+          uv run python ./build.py
+          docker run --rm -v ${PWD}:/usr/app/src ghcr.io/philsupertramp/latex-build:latest src cv
 
       - name: Upload PDF as Artifact
         uses: actions/upload-artifact@v4
