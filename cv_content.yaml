@@ -34,7 +34,7 @@ experience:
       - "Founding engineer for MoBerries automation platform spin-off. Solo Python engineer 
 responsible for backend services, ML integrations, and AWS infrastructure (EKS). 
 Evolved prototype codebase into production system through systematic refactoring, 
-establishing $\approx 98\%$ test coverage, CI/CD pipelines, and engineering best practices 
+establishing $\\approx 98\\%$ test coverage, CI/CD pipelines, and engineering best practices 
 (RFC workflow, semantic versioning, release processes). Reduced deployment cycles 
 from hours to minutes."
 
