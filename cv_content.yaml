@@ -31,10 +31,22 @@ experience:
     company: "easybits GmbH"
     techstack: Python, Django, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, sentence-transformers, llama.cpp
     description:
-      - Re-architected prototype services into production-grade microservices with $\approx 98\%$ unit test coverage, reducing deployment time from hours to minutes through CI/CD automation.
-      - Designed and implemented new automation solutions using self hosted models as well as API providers, e.g. semantic-search, text extraction for documents, text classification and image generation solutions.
-      - Created and maintained the platform infrastructure on AWS (EKS cluster), running auto scaling and monitoring services as well as self hosted LLMs and the platform services
-      - Introduced platform security mechanics, e.g. RFC like workflow for core changes, semantic versioning, release processes.
+      - "Founding engineer for MoBerries automation platform spin-off. Solo Python engineer 
+responsible for backend services, ML integrations, and AWS infrastructure (EKS). 
+Evolved prototype codebase into production system through systematic refactoring, 
+establishing $\approx 98\%$ test coverage, CI/CD pipelines, and engineering best practices 
+(RFC workflow, semantic versioning, release processes). Reduced deployment cycles 
+from hours to minutes."
+
+      - "Built modular automation framework with reusable building blocks for AI-powered 
+workflows. Implemented semantic search (Qdrant), document text extraction, multi-class 
+text classification, and image generation using self-hosted models (llama.cpp) with 
+cloud provider fallbacks. Extended platform capabilities through new automation 
+modules as product requirements evolved."
+
+      - "Managed AWS EKS infrastructure with auto-scaling, monitoring, and self-hosted LLM 
+deployments. Collaborated with CTO and offshore developer to bring platform from 
+prototype to market-ready state within 12 months."
 
   - dates: "May 2022--Dec 2024"
     title: "Solutions Architect \\& Lead Python Engineer"
