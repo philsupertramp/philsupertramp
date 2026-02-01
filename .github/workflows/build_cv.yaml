@@ -3,20 +3,15 @@ on:
   push:
     paths:
       - '**.tex'
+      - '.github/**'
 
 jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v4
-        with:
-          root_file: cv.tex
-          # moderncv requires standard packages usually included in full schemes
-          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+      - uses: actions/checkout@v4
+      - name: Run the LaTeX build
+        run: docker run --rm -v ${PWD}:/usr/app/src ghcr.io/philsupertramp/latex-build:latest src cv
 
       - name: Upload PDF as Artifact
         uses: actions/upload-artifact@v4
