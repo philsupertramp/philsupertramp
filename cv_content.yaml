@@ -45,7 +45,7 @@ experience:
       - "Owned all Python engineering and led 2-person team. Architected distributed AI 
 automation platform from scratch, replacing 3 duplicate messaging codebases with 
 Django-based orchestration layer and stateless Python microservices for message 
-parsing, routing, and AI task execution. Platform processed 2M+ messages with <2s 
+parsing, routing, and AI task execution. Platform processed 2M+ messages 
 latency across WhatsApp, Telegram, and Meta Messenger, handling 650+ concurrent 
 AI generation requests. Platform success led to easybits GmbH spin-off in 2025."
       - "Evolved intent classification through systematic iteration: keyword-based → 
@@ -67,9 +67,9 @@ company downsizing. Started in 3-person team maintaining internal backend; by 20
 became sole Python backend engineer supporting 10+ developers across teams with 
 features, fixes, and infrastructure improvements."
 
-      - "Built and open-sourced \\href{Django migration tooling}{https://gist.github.com/philsupertramp/4bb01105a07b055363ea1172768453cd} (2019) to address codebase 
+      - "Built and open-sourced \href{https://gist.github.com/philsupertramp/4bb01105a07b055363ea1172768453cd}{Django migration tooling} (2019) to address codebase 
 complexity: squashed 500-node migration graph to ~150 nodes through automated 
-consolidation, then created \\href{data migration framework}{https://github.com/philsupertramp/django-data-migration} enabling data evolution 
+consolidation, then created \href{https://github.com/philsupertramp/django-data-migration}{data migration framework} enabling data evolution 
 without breaking migration dependencies. Tools became critical for maintaining 
 production stability during team transitions."
 
@@ -105,7 +105,7 @@ projects:
   - name: "Chain Smoker"
     description: "Testing tool with a Go-based proxy to record and replay HTTP requests."
     urls:
-      - name: "philsupertramp/chain-smoke"
+      - name: "philsupertramp/chain-smoker"
         target: "https://github.com/philsupertramp/chain-smoker"
 
 education:
