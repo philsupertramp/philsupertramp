@@ -6,7 +6,7 @@ config:
   link_color: "lightblue"
 
 summary: |
-  Result oriented Backend Engineer with 4+ experience designing, developing and
+  Result oriented Backend Engineer with 8+ experience designing, developing and
   deploying scalable web backends using Python, FastAPI/Django and (non) relational or vector database systems.
   Skilled in SDLC from requirement gathering to automated testing and experise in technical leadership, mentoring junior developers,
   and driving engineering best practices.
@@ -31,7 +31,7 @@ experience:
     company: "easybits GmbH"
     techstack: Python, Django, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, sentence-transformers, llama.cpp
     description:
-      - Re-architected prototype services into production-grade microservices with $\approx 98\%$ unit test coverage, reducing deployment time from hpurs to minutes through CI/CD automation.
+      - Re-architected prototype services into production-grade microservices with $\approx 98\%$ unit test coverage, reducing deployment time from hours to minutes through CI/CD automation.
       - Designed and implemented new automation solutions using self hosted models as well as API providers, e.g. semantic-search, text extraction for documents, text classification and image generation solutions.
       - Created and maintained the platform infrastructure on AWS (EKS cluster), running auto scaling and monitoring services as well as self hosted LLMs and the platform services
       - Introduced platform security mechanics, e.g. RFC like workflow for core changes, semantic versioning, release processes.
@@ -50,7 +50,7 @@ latency across WhatsApp, Telegram, and Meta Messenger, handling 650+ concurrent
 AI generation requests. Platform success led to easybits GmbH spin-off in 2025."
       - "Evolved intent classification through systematic iteration: keyword-based → 
 fine-tuned xlm-RoBERTa → fine-tuned Qwen2-1.5B → currently OpenAI o1-mini for big scale production data collection. 
-Final in-house model achieved 99% accuracy (0.99 F1 score) on zero-shot 5-class 
+Final in-house model achieved 99\\% accuracy (0.99 F1 score) on zero-shot 5-class 
 classification. Integrated self-hosted LLMs with cloud provider fallbacks for 
 production automation workflows."
       - "Mentored DevOps engineer and BI analyst, reviewing their work and supporting 
