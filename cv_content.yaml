@@ -1,0 +1,101 @@
+config:
+  name_first: "Philipp"
+  name_last: "Zettl"
+  theme_color: "blue"
+  style: "classic"
+  link_color: "lightblue"
+
+summary: |
+  Result oriented Backend Engineer with 4+ experience designing, developing and
+  deploying scalable web backends using Python, FastAPI/Django and (non) relational or vector database systems.
+  Skilled in SDLC from requirement gathering to automated testing and experise in technical leadership, mentoring junior developers,
+  and driving engineering best practices.
+  Successfully architected a message processing system that parses and routes messages in parallel within $\approx 1.1$ seconds.
+  Passionate about writing open, clean, maintainable code and optimizing system performance.
+
+
+skills:
+  - category: "Languages"
+    entries: "Python, Bash, C/\\CC, MATLAB, Go, JavaScript"
+  - category: "Frameworks \\& ML"
+    entries: "FastAPI, Django, Flask, PyTorch, Transformers, llama.cpp"
+  - category: "Cloud \\& DevOps"
+    entries: "AWS, Docker, Kubernetes, Terraform, Terragrunt, Helm"
+  - category: "Databases"
+    entries: "MongoDB, Redis, SQLite, MySQL, PostgreSQL, Qdrant"
+
+experience:
+  - dates: "Jan 2025--Dec 2025"
+    title: "Solutions Architect \\& Founding Engineer"
+    location: "Berlin"
+    company: "easybits GmbH"
+    techstack: Python, Django, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, sentence-transformers, llama.cpp
+    description:
+      - Moved Python side of project from prototype state to production-grade services.
+      - Designed and implemented new automation solutions using self hosted models as well as API providers, e.g. semantic-search, text extraction for documents, text classification and image generation solutions.
+      - Introduced platform security mechanics, e.g. RFC like workflow for core changes, semantic versioning, release processes.
+      - Built up test case coverage for all ($\approx$ 10) Python projects to $\gte98\%$ and maintained the platform infrastructure on AWS (EKS cluster).
+
+  - dates: "May 2022--Dec 2024"
+    title: "Solutions Architect \\& Lead Python Engineer"
+    location: "Berlin"
+    company: "MoBerries GmbH"
+    techstack: Python, Django, JavaScript, React, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, AWS, PyTorch, Tensorflow (2.0), Transformers, sentence-transformers
+    description:
+      - Supervised Python team, architected solutions for platform and developed matching related features.
+      - Built in-house matching for the arabic language.
+      - Ran big scale evaluation of the matching algorithm for foreign governments during due diligence processes.
+      - Starting development of an asynchronous messaging platform for AI automation, which spun-off the easybits GmbH in 2025.
+
+  - dates: "Oct 2018--Apr 2022"
+    title: Working Student Python Backend Engineering (20h/week)
+    location: "Berlin"
+    company: "MoBerries GmbH"
+    techstack: Python, Django, JavaScript, React, PostgreSQL, MongoDB, RabbitMQ, Docker, Kubernetes, Terraform, AWS
+    description:
+      - Developed features for the internal backend. Improved test code coverage and maintained the project in a team of 3 developers.
+      - Starting 2020 due to down sizing I took over the lead of all Python projects, including some tasks for the matching algorithm.
+      - In 2021 supervised small team of one full time and one part time developer.
+      - At the end of 2021 I took over the Machine Learning part of the company and developed several features for the candidate-job matching algorithm. This team grew until 2022 to three full time developers.
+
+  - dates: "Oct 2017--Sep 2018"
+    title: Working Student Software Development (20h/week)
+    location: "Berlin"
+    company: "PrintPeter GmbH"
+    techstack: Python, Django, PostgreSQL, MySQL, SQLite, HTML, CSS
+    description:
+      - "Supported C-level, marketing and product teams with SQL queries, full-stack development and template automation."
+
+
+projects:
+  - name: "Factory"
+    description: "REST API service for orchestrating GenAI tasks (Text, Image, Audio)."
+    urls:
+      - name: "philsupertramp/factory"
+        target: "https://github.com/philsupertramp/factory"
+  - name: "Label-ling"
+    description: "Training recipes for producing production-grade NER models."
+    urls:
+      - name: "philsupertramp/label-ling"
+        target: "https://github.com/philsupertramp/label-ling"
+  - name: "Chain Smoker"
+    description: "Testing tool with a Go-based proxy to record and replay HTTP requests."
+    urls:
+      - name: "philsupertramp/chain-smoke"
+        target: "https://github.com/philsupertramp/chain-smoker"
+
+education:
+  - degree: "BSc. Mathematics"
+    institution: "Berliner Hochschule für Technik"
+    dates: "Graduated 2022"
+    description: |
+      \begin{itemize}
+        \item \textbf{\href{https://github.com/philsupertramp/inet}{Thesis}}: "Machine Learning Methods for Localization and Classification of Insects in Images" (part of the \href{https://kinsecta.org}{KInsecta} research project).
+        \item \textbf{Focus}: Applied Mathematics and Statistics.
+        \item \textbf{Relevance}: Applied deep learning techniques for object detection on biological datasets, bridging theoretical math with practical ML implementation.
+      \end{itemize}
+
+other:
+  - title: Teaching Experience
+    content: \cventry{Summer 2023}{Lecturer}{Berliner Hochschule für Technik}{Berlin}{}{Taught "Introduction to Machine Learning" for the Embedded Systems studies.}
+
