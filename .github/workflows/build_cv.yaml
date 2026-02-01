@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '**.tex'
+      - '.github/**'
 
 jobs:
   build_latex:
