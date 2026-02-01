@@ -6,17 +6,17 @@ config:
   link_color: "lightblue"
 
 summary: |
-  Result oriented Backend Engineer with 8+ experience designing, developing and
-  deploying scalable web backends using Python, FastAPI/Django and (non) relational or vector database systems.
-  Skilled in SDLC from requirement gathering to automated testing and experise in technical leadership, mentoring junior developers,
-  and driving engineering best practices.
-  Successfully architected a message processing system that parses and routes messages in parallel within $\approx 1.1$ seconds.
-  Passionate about writing open, clean, maintainable code and optimizing system performance.
+  "Backend Engineer with 8+ years of experience building scalable Python systems and 
+leading technical teams. Specialized in Django-based microservices, ML integration, 
+and platform architecture. Architected AI automation platform that processed 2M+ 
+messages and spun off into easybits GmbH. Strong track record progressing from 
+working student to founding engineer, mentoring teams of 3-5 developers, and 
+driving engineering practices from prototype to production."
 
 
 skills:
   - category: "Languages"
-    entries: "Python, Bash, C/\\CC, MATLAB, Go, JavaScript"
+    entries: "Python, Bash, C/\\CC, JavaScript"
   - category: "Frameworks \\& ML"
     entries: "FastAPI, Django, Flask, PyTorch, Transformers, llama.cpp"
   - category: "Cloud \\& DevOps"
