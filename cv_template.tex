@@ -1,5 +1,11 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,a4paper]{moderncv}
+\nopagenumbers{}
 
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.9]{geometry}
+\usepackage{tabularx}
+\usepackage{mathpazo}
+\usepackage{paracol}
 % ModernCV themes
 \moderncvstyle{\VAR{config.style}}
 \moderncvcolor{\VAR{config.color | default('blue')}}
@@ -27,6 +33,36 @@
 ]{hyperref}
 
 
+% macro
+\renewcommand*{\labelitemi}{-}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+\newcommand*{\experienceentry}[5][1.5mm]{
+    \subsection{#2} \vspace{-1.5mm}
+    \begin{tabularx}{.6\textwidth}{LR}
+        {\itshape #3} & {\itshape #4, #5}
+    \end{tabularx}
+    \par\addvspace{#1}
+}
+
+\newcommand*{\educationentry}[4][0.5mm]{
+    \begin{tabularx}{\textwidth}{LR}
+        {\bfseries #3} & {\bfseries #4} \\
+    \end{tabularx}
+    {\itshape #2}
+    \par\addvspace{#1}
+}
+
+\newcommand*{\scoreentry}[3][2.5mm]{
+    {\bfseries #2} \\
+    {\itshape #3}
+    \par\addvspace{#1}
+}
+
+
 \newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
 \def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
 \newcommand{\techstack}[1]{%
@@ -36,28 +72,23 @@
 
 % Personal data
 \name{\VAR{config.name_first}}{\VAR{config.name_last}}
-\title{Backend Engineer \& Solutions Architect} 
+\title{\VAR{config.job}} 
 \address{Berlin, Germany}{}{} 
 \email{philipp@godesteem.de}
 \social[github]{philsupertramp} 
 \extrainfo{HuggingFace: \httpslink{hf.co/philipp-zettl}}
 
 \begin{document}
-\makecvtitle
+\maketitle
 
-\section{Professional Summary}
-% You can also inject a simple string here
-\cvitem{}{\VAR{summary | default('Passionate researcher with a focus on automation.')}}
+\columnratio{0.62} 
+\setlength{\columnsep}{0.03\textwidth}
 
-\section{Skills}
-\BLOCK{ for row in skills | batch(2) }
-  \cvdoubleitem{\textbf{\VAR{row[0].category}}}{\VAR{row[0].entries}}
-               {\textbf{\VAR{row[1].category if row[1] else ''}}}{\VAR{row[1].entries if row[1] else ''}}
-\BLOCK{ endfor }
-
-\section{Experience}
+% left column
+\begin{paracol}{2}
+\section{EXPERIENCE}
 \BLOCK{ for job in experience }
-\cventry{\VAR{job.dates}}{\VAR{job.title}}{\VAR{job.company}}{\VAR{job.location}}{}{%
+\experienceentry{\VAR{job.company}}{\VAR{job.title}}{\VAR{job.dates}}{\VAR{job.location}}{}{%
 \techstack{\VAR{job.techstack}}
 \begin{itemize}
     \BLOCK{ for item in job.description }
@@ -65,21 +96,40 @@
     \BLOCK{ endfor }
 \end{itemize}
 }
+\vspace{2.0mm}
 \BLOCK{ endfor }
 
-\section{Selected Projects}
-\BLOCK{ for proj in projects }
-\cvitem{\VAR{proj.name}}{\VAR{proj.description}\newline\BLOCK{for url in proj.urls}\href{\VAR{url.target}}{\footnotesize \VAR{url.name}}\BLOCK{endfor}}
+\switchcolumn
+
+\section{SUMMARY}
+% You can also inject a simple string here
+\VAR{summary | default('Passionate researcher with a focus on automation.')}
+
+\section{SKILLS}
+\begin{tabularx}{.35\textwidth}{>{\bfseries}l@{\hskip 3.5mm}L}
+\BLOCK{ for row in skills }
+  \VAR{row.category} & \VAR{row.entries} \\
 \BLOCK{ endfor }
+\end{tabularx}
 
 \section{Education}
 \BLOCK{ for edu in education }
-\cventry{\VAR{edu.dates}}{\VAR{edu.degree}}{\VAR{edu.institution}}{}{}{\VAR{edu.description}}
+  \educationentry{\VAR{edu.degree}}{\VAR{edu.institution}}{\VAR{edu.location}}
+  \VAR{edu.description}
 \BLOCK{ endfor }
+\par
+
+\section{Selected Projects}
+  \begin{itemize}
+  \BLOCK{ for proj in projects }
+\item \VAR{proj.name}: \VAR{proj.description}\newline\BLOCK{for url in proj.urls}\href{\VAR{url.target}}{\footnotesize \VAR{url.name}}\BLOCK{endfor}
+  \BLOCK{ endfor }
+\end{itemize}
+
 
 \BLOCK{ for elem in other }
 \section{\VAR{elem.title}}
 \VAR{elem.content}
 \BLOCK{ endfor }
-
+\end{paracol}
 \end{document}

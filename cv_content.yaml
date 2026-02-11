@@ -2,8 +2,9 @@ config:
   name_first: "Philipp"
   name_last: "Zettl"
   theme_color: "blue"
-  style: "classic"
+  style: "banking"
   link_color: "lightblue"
+  job: "Backend Engineer \\& Solutions Architect"
 
 summary: |
   Backend Engineer with 8+ years of experience building scalable Python systems and 
@@ -29,14 +30,12 @@ experience:
     title: "Solutions Architect \\& Founding Engineer"
     location: "Berlin"
     company: "easybits GmbH"
-    techstack: Python, Django, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, sentence-transformers, llama.cpp
+    techstack: Qdrant, RabbitMQ, Kubernetes, Terraform, sentence-transformers, llama.cpp
     description:
       - "Founding engineer for MoBerries automation platform spin-off. Solo Python engineer 
-responsible for backend services, ML integrations, and AWS infrastructure (EKS). 
-Evolved prototype codebase into production system through systematic refactoring, 
-establishing $\\approx 98\\%$ test coverage, CI/CD pipelines, and engineering best practices 
-(RFC workflow, semantic versioning, release processes). Reduced deployment cycles 
-from hours to minutes."
+responsible for backend services, ML integrations, and AWS infrastructure (EKS)."
+
+# Evolved prototype codebase into production system through systematic refactoring, establishing $\\approx 98\\%$ test coverage, CI/CD pipelines, and engineering best practices (RFC workflow, semantic versioning, release processes). Reduced deployment cycles from hours to minutes."
 
       - "Built modular automation framework with reusable building blocks for AI-powered 
 workflows. Implemented semantic search (Qdrant), document text extraction, multi-class 
@@ -52,18 +51,14 @@ prototype to market-ready state within 12 months."
     title: "Solutions Architect \\& Lead Python Engineer"
     location: "Berlin"
     company: "MoBerries GmbH"
-    techstack: Python, Django, JavaScript, React, PostgreSQL, MongoDB, Qdrant, RabbitMQ, Docker, Kubernetes, Terraform, AWS, PyTorch, Tensorflow (2.0), Transformers, sentence-transformers
+    techstack: Django, PostgreSQL, Kubernetes, Terraform, AWS, PyTorch, Tensorflow (2.0)
     description:
       - "Owned all Python engineering and led 2-person team. Architected distributed AI 
 automation platform from scratch, replacing 3 duplicate messaging codebases with 
 Django-based orchestration layer and stateless Python microservices for message 
 parsing, routing, and AI task execution. Platform processed 2M+ messages across APIs, WhatsApp, Telegram, and Meta Messenger, handling 650+ concurrent 
 AI generation requests. Platform success led to easybits GmbH spin-off in 2025."
-      - "Evolved intent classification through systematic iteration: keyword-based → 
-fine-tuned xlm-RoBERTa → fine-tuned Qwen2-1.5B → currently OpenAI o1-mini for big scale production data collection. 
-Final in-house model achieved 99\\% accuracy (0.99 F1 score) on zero-shot 5-class 
-classification. Integrated self-hosted LLMs with cloud provider fallbacks for 
-production automation workflows."
+      #- "Evolved intent classification through systematic iteration: keyword-based → fine-tuned xlm-RoBERTa → fine-tuned Qwen2-1.5B → currently OpenAI o1-mini for big scale production data collection. Final in-house model achieved 99\\% accuracy (0.99 F1 score) on zero-shot 5-class classification. Integrated self-hosted LLMs with cloud provider fallbacks for production automation workflows."
       - "Mentored DevOps engineer and BI analyst, reviewing their work and supporting 
 infrastructure automation and data pipeline development."
 
@@ -71,18 +66,14 @@ infrastructure automation and data pipeline development."
     title: Working Student Python Backend Engineering (20h/week)
     location: "Berlin"
     company: "MoBerries GmbH"
-    techstack: Python, Django, JavaScript, React, PostgreSQL, MongoDB, RabbitMQ, Docker, Kubernetes, Terraform, AWS
+    techstack: Django, JavaScript, React, PostgreSQL, MongoDB, RabbitMQ, Docker, Kubernetes, Terraform, AWS
     description:
       - "Rapid progression from junior developer to technical lead over 3.5 years during 
 company downsizing. Started in 3-person team maintaining internal backend; by 2020 
 became sole Python backend engineer supporting 10+ developers across teams with 
 features, fixes, and infrastructure improvements."
 
-      - "Built and open-sourced \\href{https://gist.github.com/philsupertramp/4bb01105a07b055363ea1172768453cd}{Django migration tooling} (2019) to address codebase 
-complexity: squashed 500-node migration graph to ~150 nodes through automated 
-consolidation, then created \\href{https://github.com/philsupertramp/django-data-migration}{data migration framework} enabling data evolution 
-without breaking migration dependencies. Tools became critical for maintaining 
-production stability during team transitions."
+      #- "Built and open-sourced \\href{https://gist.github.com/philsupertramp/4bb01105a07b055363ea1172768453cd}{Django migration tooling} (2019) to address codebase complexity: squashed 500-node migration graph to ~150 nodes through automated consolidation, then created \\href{https://github.com/philsupertramp/django-data-migration}{data migration framework} enabling data evolution without breaking migration dependencies. Tools became critical for maintaining production stability during team transitions."
 
       - "Established comprehensive test coverage in absence of QA team, implemented CI/CD 
 improvements, and maintained production systems through multiple scaling phases. 
@@ -127,10 +118,10 @@ education:
       \begin{itemize}
         \item \textbf{\href{https://github.com/philsupertramp/inet}{Thesis}}: "Machine Learning Methods for Localization and Classification of Insects in Images" (part of the \href{https://kinsecta.org}{KInsecta} research project).
         \item \textbf{Focus}: Applied Mathematics and Statistics.
-        \item \textbf{Relevance}: Applied deep learning techniques for object detection on biological datasets, bridging theoretical math with practical ML implementation.
+        \item \textbf{Relevance}: Applied deep learning techniques for object detection for biological datasets on edge devices, bridging theoretical math with practical ML implementation.
       \end{itemize}
 
 other:
   - title: Teaching Experience
-    content: \cventry{Summer 2023}{Lecturer}{Berliner Hochschule für Technik}{Berlin}{}{Taught "Introduction to Machine Learning" for the Embedded Systems studies.}
+    content: \scoreentry{Summer 2023}{Lecturer @ Berliner Hochschule für Technik}{"Introduction to Machine Learning" for the Embedded Systems studies.}
 
