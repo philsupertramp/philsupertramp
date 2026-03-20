@@ -18,9 +18,9 @@ summary: |
 skills:
   - category: "Languages"
     entries: "Python, Bash, C/\\CC, JavaScript"
-  - category: "Frameworks \\& ML"
+  - category: "Frameworks \\&\\\\ ML"
     entries: "FastAPI, Django, Flask, PyTorch, Transformers, llama.cpp"
-  - category: "Cloud \\& DevOps"
+  - category: "Cloud \\&\\\\ DevOps"
     entries: "AWS, Docker, Kubernetes, Terraform, Terragrunt, Helm"
   - category: "Databases"
     entries: "MongoDB, Redis, SQLite, MySQL, PostgreSQL, Qdrant"
