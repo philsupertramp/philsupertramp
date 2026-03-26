@@ -21,9 +21,9 @@ skills:
   - category: "Frameworks \\&\\\\ ML"
     entries: "FastAPI, Django, Flask, PyTorch, Transformers, llama.cpp"
   - category: "Cloud \\&\\\\ DevOps"
-    entries: "AWS, Docker, Kubernetes, Terraform, Terragrunt, Helm"
+    entries: "LAMP, AWS, Docker, Kubernetes, Terraform, Terragrunt, Helm"
   - category: "Databases"
-    entries: "MongoDB, Redis, SQLite, MySQL, PostgreSQL, Qdrant"
+    entries: "MongoDB, Redis, SQLite, MySQL, PostgreSQL, Qdrant, ElasticSearch"
 
 experience:
   - dates: "Jan 2025--Dec 2025"
@@ -66,7 +66,7 @@ infrastructure automation and data pipeline development."
     title: Working Student Python Backend Engineering (20h/week)
     location: "Berlin"
     company: "MoBerries GmbH"
-    techstack: Django, JavaScript, React, PostgreSQL, MongoDB, RabbitMQ, Docker, Kubernetes, Terraform, AWS
+    techstack: Django, JavaScript, React, PostgreSQL, MongoDB, ElasticSearch, RabbitMQ, Docker, Kubernetes, Terraform, AWS
     description:
       - "Rapid progression from junior developer to technical lead over 3.5 years during 
 company downsizing. Started in 3-person team maintaining internal backend; by 2020 
@@ -83,6 +83,15 @@ Led team of 2 developers (1 FT, 1 PT) starting 2021."
 developers by 2022. Built Arabic language matching prototype for Middle East 
 expansion and Google Sheets integration enabling sales team to score candidate-job 
 pairs in real-time by auto-parsing spreadsheet data to internal matching API."
+
+  - dates: "Summer 2019"
+    title: "Student Research Assistant - Infrastructure"
+    location: "Berlin"
+    company: Berliner Hochschule für Technik
+    techstack: Python, Bash, LAMP
+    description:
+      - "Provisioned bare-metal servers using automated Bash scripts"
+      - "Delivered part of the foundational compute infrastructure used to launch and support the university's new Data Science Master's program."
 
   - dates: "Oct 2017--Sep 2018"
     title: Working Student Software Development (20h/week)
