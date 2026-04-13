@@ -1,0 +1,32 @@
+config:
+  client:
+    auth_header: null
+    base_url: https://blog.godesteem.de
+    kwargs: {}
+  env: []
+tests:
+- auth_header_template: null
+  contains: "Hi, I'm Phil, a software engineer, self proclaimed and certified mathematician and this is my blog. Here you can find some of my thoughts, projects, tutorials and notes about software development, computer science, math and machine learning."
+  contains_not: null
+  endpoint: /
+  expected: null
+  expects_status_code: 200
+  headers:
+    Accept: '[*/*]'
+    Accept-Encoding: '[gzip, deflate]'
+    Accept-Language: '[en-US,en;q=0.9]'
+    Priority: '[u=4]'
+    User-Agent: '[Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0]'
+    X-Forwarded-For: '[10.0.0.8]'
+  is_authentication: false
+  method: get
+  multi_step: false
+  name: get-blog_godesteem_de
+  payload: ''
+  payload_cookies: []
+  requires_auth: true
+  response_cookies: []
+  response_headers: null
+  steps: []
+  uses: null
+type: api-test
