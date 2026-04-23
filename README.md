@@ -59,7 +59,6 @@ https://philipp-zettl-my-heatmap.static.hf.space
       <b>Fundamentals of Agents</b><br>
       <i>Hugging Face</i>
     </td>
-    
     <td align="center">
       <a href="certificates/image-10.webp">
         <img src="certificates/image-10.webp" width="250" alt="The LLM Course: Fine-Tuning">
@@ -68,7 +67,6 @@ https://philipp-zettl-my-heatmap.static.hf.space
       <b>The LLM Course:<br>Fine-Tuning</b><br>
       <i>Hugging Face</i>
     </td>
-
     <td align="center">
       <a href="certificates/image-9.webp">
         <img src="certificates/image-9.webp" width="250" alt="Supervised Fine-tuning">
@@ -87,7 +85,6 @@ https://philipp-zettl-my-heatmap.static.hf.space
       <b>LLM Post Training:<br>Preference Alignment</b><br>
       <i>Hugging Face</i>
     </td>
-
     <td align="center">
       <a href="certificates/image-12.webp">
         <img src="certificates/image-12.webp" width="250" alt="Vision Language Models">
@@ -96,7 +93,6 @@ https://philipp-zettl-my-heatmap.static.hf.space
       <b>LLM Post Training:<br>Vision Language Models</b><br>
       <i>Hugging Face</i>
     </td>
-    
     <td></td>
   </tr>
 </table>
