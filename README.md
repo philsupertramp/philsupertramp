@@ -47,6 +47,60 @@ https://philipp-zettl-my-heatmap.static.hf.space
 
 ----
 
+## 📜 Certificates
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="certificates/image-3.webp">
+        <img src="certificates/image-3.webp" width="250" alt="Fundamentals of Agents">
+      </a>
+      <br>
+      <b>Fundamentals of Agents</b><br>
+      <i>Hugging Face</i>
+    </td>
+    
+    <td align="center">
+      <a href="certificates/image-10.webp">
+        <img src="certificates/image-10.webp" width="250" alt="The LLM Course: Fine-Tuning">
+      </a>
+      <br>
+      <b>The LLM Course:<br>Fine-Tuning</b><br>
+      <i>Hugging Face</i>
+    </td>
+
+    <td align="center">
+      <a href="certificates/image-9.webp">
+        <img src="certificates/image-9.webp" width="250" alt="Supervised Fine-tuning">
+      </a>
+      <br>
+      <b>LLM Post Training:<br>Supervised Fine-tuning</b><br>
+      <i>Hugging Face</i>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="certificates/image-11.webp">
+        <img src="certificates/image-11.webp" width="250" alt="Preference Alignment">
+      </a>
+      <br>
+      <b>LLM Post Training:<br>Preference Alignment</b><br>
+      <i>Hugging Face</i>
+    </td>
+
+    <td align="center">
+      <a href="certificates/image-12.webp">
+        <img src="certificates/image-12.webp" width="250" alt="Vision Language Models">
+      </a>
+      <br>
+      <b>LLM Post Training:<br>Vision Language Models</b><br>
+      <i>Hugging Face</i>
+    </td>
+    
+    <td></td>
+  </tr>
+</table>
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Philsupertramp&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Philsupertramp&theme=dark&hide_border=false)<br/>
