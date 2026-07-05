@@ -4,10 +4,10 @@ config:
   theme_color: "blue"
   style: "banking"
   link_color: "lightblue"
-  job: "Backend Engineer \\& Solutions Architect"
+  job: "ML Engineer"
 
 summary: |
-  Backend Engineer with 8+ years of experience building scalable Python systems and 
+  Backend \& ML Engineer with 8+ years of experience building scalable Python systems and 
   leading technical teams. Specialized in Django-based microservices, ML integration, 
   and platform architecture. Architected AI automation platform that processed 2M+ 
   messages and spun off into easybits GmbH. Strong track record progressing from 
@@ -35,13 +35,8 @@ experience:
       - "Founding engineer for MoBerries automation platform spin-off. Solo Python engineer 
 responsible for backend services, ML integrations, and AWS infrastructure (EKS)."
 
-# Evolved prototype codebase into production system through systematic refactoring, establishing $\\approx 98\\%$ test coverage, CI/CD pipelines, and engineering best practices (RFC workflow, semantic versioning, release processes). Reduced deployment cycles from hours to minutes."
-
-      - "Built modular automation framework with reusable building blocks for AI-powered 
-workflows. Implemented semantic search (Qdrant), document text extraction, multi-class 
-text classification, and image generation using self-hosted models (llama.cpp) with 
-cloud provider fallbacks. Extended platform capabilities through new automation 
-modules as product requirements evolved."
+      - "Evolved prototype codebase into production system through systematic refactoring, establishing $\\approx 98\\%$ test coverage, CI/CD pipelines, and engineering best practices (RFC workflow, semantic versioning, release processes). Reduced deployment cycles from hours to minutes."
+      - "Built internal intent classification through systematic iteration: keyword-based → fine-tuned xlm-RoBERTa → fine-tuned Qwen2-1.5B → currently OpenAI o1-mini for big scale production data collection. Final in-house model achieved 99\\% accuracy (0.99 F1 score) on zero-shot 5-class classification. Integrated self-hosted LLMs with cloud provider fallbacks for production automation workflows."
 
       - "Managed AWS EKS infrastructure with auto-scaling, monitoring, and self-hosted LLM 
 deployments. Collaborated with CTO and offshore developer to bring platform from 
@@ -58,9 +53,14 @@ automation platform from scratch, replacing 3 duplicate messaging codebases with
 Django-based orchestration layer and stateless Python microservices for message 
 parsing, routing, and AI task execution. Platform processed 2M+ messages across APIs, WhatsApp, Telegram, and Meta Messenger, handling 650+ concurrent 
 AI generation requests. Platform success led to easybits GmbH spin-off in 2025."
-      #- "Evolved intent classification through systematic iteration: keyword-based → fine-tuned xlm-RoBERTa → fine-tuned Qwen2-1.5B → currently OpenAI o1-mini for big scale production data collection. Final in-house model achieved 99\\% accuracy (0.99 F1 score) on zero-shot 5-class classification. Integrated self-hosted LLMs with cloud provider fallbacks for production automation workflows."
       - "Mentored DevOps engineer and BI analyst, reviewing their work and supporting 
 infrastructure automation and data pipeline development."
+      - "Built modular automation framework with reusable building blocks for AI-powered 
+workflows. Implemented semantic search (Qdrant), document text extraction, multi-class 
+text classification, and image generation using self-hosted models (llama.cpp) with 
+cloud provider fallbacks. Extended platform capabilities through new automation 
+modules as product requirements evolved."
+
 
   - dates: "Oct 2018--Apr 2022"
     title: Working Student Python Backend Engineering (20h/week)
