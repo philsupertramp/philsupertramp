@@ -26,6 +26,12 @@ skills:
     entries: "MongoDB, Redis, SQLite, MySQL, PostgreSQL, Qdrant, ElasticSearch"
 
 experience:
+  - dates: "Jul 2026--Present"
+    title: "Senior Data Engineer"
+    location: "Remote"
+    company: "CONTACT Software GmbH"
+    techstack: Python, DLT, DBT, Apache Superset, MS Power I, kubernetes, helm
+    description: "TBD"
   - dates: "Jan 2025--Dec 2025"
     title: "Solutions Architect \\& Founding Engineer"
     location: "Berlin"
