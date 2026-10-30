@@ -1,111 +1,76 @@
-### Hi there 👋
-[Download my full CV (PDF)](https://github.com/philsupertramp/philsupertramp/releases/latest/download/cv.pdf)
+<p align="center">
+  <img src="assets/hero.svg" alt="PhilSupertramp — software engineer working across machine learning, numerical computing, and infrastructure" width="100%" />
+</p>
 
-My name is Philipp.
-I have a B. Sc. in Mathematics and am a big software engineering entusiast that loves to explore numerical and statistical methods to solve problems.
+I build software where **machine learning**, **numerical computing**, and **backend infrastructure** meet. My work ranges from experimenting with integer-only neural-network training to distributed ML systems and practical tools for developers.
 
-My most recent projects are
-- [learn-dis/learn-dis](https://github.com/learn-dis/learn-dis): a distributed training service for ML models. Originally a research project to test the feasibility of FedAvg on private training data provided by external remote clients.
-- [philsupertramp/factory](https://github.com/philsupertramp/factory): a generative AI service that bundles wide-spread Text-To-Image, Text-To-Text, Text-To-Speech and Speech-Recognition tasks. It's constantly getting updates and it's for sure worth a look!
+**Main tools:** Rust · Python · PyTorch · Kubernetes · Linux · CUDA
 
+[**Selected work**](#selected-work) · [**Portfolio**](https://blog.godesteem.de/portfolio/) · [**Engineering notes**](https://blog.godesteem.de) · [**Hugging Face**](https://huggingface.co/philipp-zettl) · [**CV**](https://github.com/philsupertramp/philsupertramp/releases/latest/download/cv.pdf) · [**Contact**](mailto:philipp@godesteem.de)
 
-Until 2021 my main focus in software development was to build useful tools for WebDev and everything involved in it.  
-Ranging from an educational course in
-- 🐋 [philsupertramp/docker](https://github.com/philsupertramp/docker) a "3 day" course on how to use docker
+## Selected work
 
-To usability tools like a helper/wrapper script around docker-compose
-- 🐋 [philsupertramp/docr](https://github.com/philsupertramp/docr) a docker-compose utility script
-
-An API testing framework
-- 🤖 [philsupertramp/chain-smoker](https://github.com/philsupertramp/chain-smoker) a testing tool to record and execute (mainly REST-API) smoke tests.
-
-And many many extensions for Django (a python web framework)
-- 🐮 [Django](https://www.djangoproject.com/) tools: [philsupertramp/django-data-migration](https://github.com/philsupertramp/django-data-migration) a decoupled migration system exclusively for data transformations and [philsupertramp/dj-migration-test](https://github.com/philsupertramp/dj-migration-test) a django library assisting to write unit tests for data migrations.
-
-Apart from this, I've also published my starter repository for TeX Projects
-- 🗎 [philsupertramp/tex-starter](https://github.com/philsupertramp/tex-starter) a LaTeX starter project, to jump-start a large tex document
-
-and I am the proud author of
-
-- 🔭 [philsupertramp/game-math](https://github.com/philsupertramp/game-math) a math library for game developers, which includes a load of mathematical helpers to do all sorts of things, including several Machine Learning algorithms too and the beginning of a symbolic math extension.
-  
-  
-There is much more to discover in my repositories, give em a look you won't regret it 😉
-  
-  
-- ✍️ You can contact me via [Mail](mailto:philipp@godesteem.de) or other social channels listed in my profile
-
-----
-Check out my contributions on other platforms, like HuggingFace 🤗
-
-https://philipp-zettl-my-heatmap.static.hf.space
-
-----
-
-- 👨‍🏫 Early 2022 I wrote [my Thesis](https://github.com/philsupertramp/inet) with the topic: **"Machine Learning Methods for Localiazation and Classification of Insects in Images"** and plan to build a more advanced guideline for object detection / image classification tasks.
-- 🧑‍🏫 In summer 2023 I taught an introductory class to Machine Learning at Berliner Hochschule für Technik (BHT)
-
-----
-
-## 📜 Certificates
+`$ ls ~/projects`
 
 <table>
   <tr>
-    <td align="center">
-      <a href="certificates/image-3.webp">
-        <img src="certificates/image-3.webp" width="250" alt="Fundamentals of Agents">
-      </a>
-      <br>
-      <b>Fundamentals of Agents</b><br>
-      <i>Hugging Face</i>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/philsupertramp/integers">01 / integers</a></h3>
+      <sub>Rust · Numerical computing · Machine learning</sub>
+      <p>Exploring neural-network training and inference with fixed-point integer arithmetic, stochastic rounding, and CPU-oriented kernels. <em>Experimental / work in progress.</em></p>
     </td>
-    <td align="center">
-      <a href="certificates/image-10.webp">
-        <img src="certificates/image-10.webp" width="250" alt="The LLM Course: Fine-Tuning">
-      </a>
-      <br>
-      <b>The LLM Course:<br>Fine-Tuning</b><br>
-      <i>Hugging Face</i>
-    </td>
-    <td align="center">
-      <a href="certificates/image-9.webp">
-        <img src="certificates/image-9.webp" width="250" alt="Supervised Fine-tuning">
-      </a>
-      <br>
-      <b>LLM Post Training:<br>Supervised Fine-tuning</b><br>
-      <i>Hugging Face</i>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/learn-dis/learn-dis">02 / learn-dis</a></h3>
+      <sub>Python · PyTorch · Distributed systems</sub>
+      <p>A framework for federated-learning experiments, including client/server training, dataset sharding, persistent tasks, and FedAvg aggregation.</p>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="certificates/image-11.webp">
-        <img src="certificates/image-11.webp" width="250" alt="Preference Alignment">
-      </a>
-      <br>
-      <b>LLM Post Training:<br>Preference Alignment</b><br>
-      <i>Hugging Face</i>
+    <td valign="top">
+      <h3><a href="https://github.com/philsupertramp/chain-smoker">03 / chain-smoker</a></h3>
+      <sub>Python · API testing · Developer tooling</sub>
+      <p>Record and run API smoke tests using declarative test cases; includes a proxy-based test-case capture workflow.</p>
     </td>
-    <td align="center">
-      <a href="certificates/image-12.webp">
-        <img src="certificates/image-12.webp" width="250" alt="Vision Language Models">
-      </a>
-      <br>
-      <b>LLM Post Training:<br>Vision Language Models</b><br>
-      <i>Hugging Face</i>
+    <td valign="top">
+      <h3><a href="https://github.com/philsupertramp/factory">04 / factory</a></h3>
+      <sub>Python · Model serving · Inference</sub>
+      <p>A unified REST interface for experimenting with generative-model pipelines across text, speech, and images.</p>
     </td>
-    <td></td>
   </tr>
 </table>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Philsupertramp&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Philsupertramp&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Philsupertramp&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## `$ cat /var/log/engineering.log`
 
+I prefer sharing the actual work over achievement counters. These links are live views of development in the public repositories above:
 
-## 🏆 GitHub Trophies
+- [**Integer-only ML experiments and active pull requests**](https://github.com/philsupertramp/integers/pulls)
+- [**Recent chain-smoker changes**](https://github.com/philsupertramp/chain-smoker/commits)
+- [**Distributed learning discussions and development**](https://github.com/learn-dis/learn-dis/pulls)
 
-[![trophy](https://trophy.benkou.dev/?username=philsupertramp&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+<sub>A generated changelog with selected public changes can replace this section later. For now it deliberately needs no scheduled GitHub Actions jobs or external stats service.</sub>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Philsupertramp&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## `$ cat ~/background.md`
+
+My background combines mathematics and software engineering. I completed a B.Sc. in Mathematics, researched [insect localization and classification from images](https://github.com/philsupertramp/inet) for my thesis, and taught an introductory machine-learning class at Berliner Hochschule für Technik in 2023.
+
+I also write and tinker outside of ML: backend systems, developer tooling, Linux infrastructure, and the occasional side experiment.
+
+<details>
+<summary><b>More projects, research, and credentials</b></summary>
+
+### Earlier projects
+
+- [game-math](https://github.com/philsupertramp/game-math) — mathematical tools for game developers.
+- [django-data-migration](https://github.com/philsupertramp/django-data-migration) — separating data migrations from schema migrations.
+- [docr](https://github.com/philsupertramp/docr) — utilities around Docker Compose.
+- [Insect localization & classification](https://github.com/philsupertramp/inet) — bachelor thesis, research, and accompanying code.
+
+### Selected Hugging Face learning certificates
+
+[View certificates in this repository](https://github.com/philsupertramp/philsupertramp/tree/main/certificates), including work on fine-tuning, post-training, vision-language models, and agents.
+
+</details>
+
+---
+
+**Find me:** [GitHub](https://github.com/philsupertramp) · [Hugging Face](https://huggingface.co/philipp-zettl) · [Blog](https://blog.godesteem.de) · [Email](mailto:philipp@godesteem.de)
